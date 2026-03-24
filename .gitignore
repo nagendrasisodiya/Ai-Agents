@@ -1,0 +1,20 @@
+# 1. Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# 2. Virtual environment
+.venv/
+venv/
+
+# 3. Secrets
+**/.env
+.gradio/
+
+# 4. IDE
+.idea/
+.vscode/
+
+
+# 6. Poetry (optional)
+poetry.lock
