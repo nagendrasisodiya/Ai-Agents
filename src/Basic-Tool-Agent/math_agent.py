@@ -36,7 +36,6 @@ def add_numbers(inputs:str)->dict:
 def subtract_numbers(inputs:str)->dict:
     """
     Extracts numbers from a string and performs subtraction: first number - second number - third number...
-    
     :parameter
     - inputs(str): string containing numbers to subtract
     :returns

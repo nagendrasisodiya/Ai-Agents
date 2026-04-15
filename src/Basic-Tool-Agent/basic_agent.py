@@ -87,8 +87,7 @@ response =agent.run("In 2023, the US GDP was approximately $27.72 trillion, whil
 print(response)
 
 
-# @tool
-# def sum_numbers_with_complex_output(inputs:str)->Dict[str, Union[float, str]]:
+# @tool-# def sum_numbers_with_complex_output(inputs:str)->Dict[str, Union[float, str]]:
 #     """
 #         extracts and sum all integers and decimal numbers from the input string
 #
