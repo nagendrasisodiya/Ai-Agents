@@ -77,7 +77,14 @@ def failure_node(state):
 
 
 # router node: decision-making point
-
+# The router node in the graph is responsible for determining whether the workflow should proceed to the reflection phase or terminate.
+# This decision can be made in two ways:
+# Predefined Logic:
+# A simple condition is used to check the number of messages in the state.
+# If the number of messages exceeds 6 (len(state) > 6), the workflow ends. Otherwise, it continues to the reflection phase.
+# LLM-Based Logic:
+# Instead of relying on predefined logic, we can integrate an LLM to evaluate the context of the messages and decide whether further reflection is necessary.
+# For now, we will implement the predefined logic
 def router(state):
     if state['isAuthenticated']:
         return "success_node"

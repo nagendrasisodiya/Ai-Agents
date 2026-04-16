@@ -1,0 +1,48 @@
+🔎 Reflection Agent
+How it works:
+
+The agent produces an answer.
+
+It then reviews its own output (like proofreading).
+
+If it spots mistakes or weaknesses, it tries again with corrections.
+
+Key idea: Short‑term self‑critique.
+
+Analogy: Imagine writing an essay, then immediately rereading it to fix typos before submitting.
+
+Limitation: It doesn’t remember past mistakes across different tasks — each run is independent.
+
+🔎 Reflexion Agent
+How it works:
+
+The agent produces an answer.
+
+It generates a verbal self‑critique (e.g., “I forgot to check edge cases”).
+
+That critique is stored in episodic memory.
+
+The next time the agent faces a similar task, it recalls its past critique and adjusts its behavior.
+
+Key idea: Long‑term self‑improvement with memory.
+
+Analogy: Imagine keeping a journal of mistakes and lessons learned. Next time you write an essay, you remember “last time I forgot citations,” so you fix that proactively.
+
+Strength: Builds cumulative knowledge, not just one‑off corrections.
+
+⚙️ Side‑by‑Side Example
+Let’s say the agent is solving coding problems:
+
+Reflection Agent:
+
+Writes code → tests → sees it fails → rewrites code.
+
+Each problem starts fresh; it doesn’t remember what went wrong last time.
+
+Reflexion Agent:
+
+Writes code → tests → sees it fails → generates a critique (“I forgot to handle null inputs”).
+
+Stores that critique in memory.
+
+Next coding problem → recalls “I must handle null inputs” → writes better code from the start.

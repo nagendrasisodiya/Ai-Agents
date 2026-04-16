@@ -39,7 +39,6 @@ Components of LangGraph:
 1. States: represent the current condition or context within a workflow. They store and manage information as the agent progresses from one node to the next.
 
 For instance:
-
 A state might capture user input, store the results of a database query, or reflect the status of an ongoing process.
 States ensure the AI agent has access to relevant information at the right time, enabling dynamic and context-aware behavior.
 
@@ -48,7 +47,6 @@ States ensure the AI agent has access to relevant information at the right time,
 2. Nodes: are the core units of action in LangGraph. Each node represents a specific task or operation that the AI agent needs to perform.
 
 For example:
-
 A node could fetch data from an API, process information, or generate a response.
 Nodes can vary in complexity, from simple calculations to executing intricate workflows, and they form the foundation of any graph in LangGraph.
 
@@ -56,14 +54,20 @@ The node is a fundamental building block of a graph that encapsulates a unit of 
 It represents a single step in a workflow or process, typically taking input, performing an action, and providing output.
 Each node is connected to others to define the flow of logic or data
 
+
+
 3. Edges: define the connections between nodes and represent the flow of execution within the graph.
 They dictate how the AI agent transitions from one task to another based on predefined logic or conditions.
 In the authentication workflow, edges guide the application flow, determining the path taken based on the results of each node's execution.
 
 
+
 4. Conditional Edges: enable decision-making by allowing transitions between nodes based on specific conditions within the state.
 These edges define the flow of execution based on outcomes such as user input, validation results, or any other predefined logic.
 By using conditional edges, the AI agent can dynamically choose its path based on the results of previous tasks.
+
+
+
 
 Setting the Entry Point
 The entry point defines where the workflow starts.
