@@ -21,3 +21,6 @@ poetry.lock
 
 # 7. Ignore the entire folder
 utility/
+
+8.issue with it not worthy
+DocChat-MultiAgent_RAG/
